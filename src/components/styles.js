@@ -8,9 +8,10 @@ export default makeStyles (() => (
  },
  toolkit:{
     height:'70px',
+
  },
  content:{
     flexGrow:'1',
-    padding:'2em',
- },
-    })) 
+    padding:'20em',
+ }
+    })) ;

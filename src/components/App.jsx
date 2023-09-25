@@ -2,7 +2,8 @@ import React from 'react'
 import { CssBaseline } from '@mui/material';
 import { Routes, Route } from 'react-router-dom';
 import { NavBar, MovieInfo, Movies, Actors, Profile ,Not} from './ind';
-import useStyles from './styles'
+import useStyles from './styles';
+
 const App = () => {
   const classes = useStyles();
   return (<div className={classes.root}>
